@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+int r,c,i,j;
+for(r=1;r<=5;r++){
+for(c=1;c<=11;c++){
+if(c<=r||(c<=11&&c>11-r)) printf("%d",r);
+else printf(" ");}
+printf("\n");}}
